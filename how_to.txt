@@ -1,1 +1,4 @@
 poetry run superset run -p 8088
+
+
+export FLASK_APP=superset.app:create_app

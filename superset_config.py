@@ -6,3 +6,5 @@ ALLOWED_SQLALCHEMY_DATASOURCE_URIS = [
     "sqlite+pysqlite://",
     "sqlite"
 ]
+
+SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://supersetuser:StrongPassword123!@localhost:5432/supersetdb"
