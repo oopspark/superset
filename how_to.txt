@@ -1,4 +1,7 @@
 poetry run superset run -p 8088
 
 
+superset db upgrade
+
+export SUPERSET_CONFIG_PATH=/home/user/문서/workspace/superset/superset_config.py
 export FLASK_APP=superset.app:create_app
